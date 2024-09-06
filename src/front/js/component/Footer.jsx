@@ -32,15 +32,15 @@ export const Footer = () => {
 
         <div className="footer-menu container-fluid d-flex justify-content-center">
           <MenuFooter
-            direction1="/"
+            direction1="/aboutus"
             name1="About us"
-            direction2="/"
+            direction2="/features"
             name2="Features"
-            direction3="/3"
+            direction3="/contactus"
             name3="Contact us"
-            direction4="/4"
+            direction4="/faqs"
             name4="FAQs"
-            direction5="/5"
+            direction5="/carrers"
             name5="Careers"
           />
         </div>
@@ -56,7 +56,7 @@ export const Footer = () => {
                 className="languaje-select"
                 aria-label="Default select example"
               >
-                <option selected>English</option>
+                <option defaultValue="#">English</option>
                 <option value="1">Idioma2</option>
                 <option value="2">Idioma3</option>
                 <option value="3">Idioma4</option>
